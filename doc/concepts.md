@@ -112,8 +112,7 @@ enough benefit, accounting for the braking imposed on others. Resolve two cars
 requesting the same gap together. Mandatory lane changes near turns/merges
 need explicit rules and tests as well.
 
-[MOBIL reference](https://doi.org/10.3141/1999-10): Kesting, Treiber, and Helbing,
-2007. This is an extension milestone, not a prerequisite for the first ring.
+[MOBIL reference](https://doi.org/10.3141/1999-10): Kesting, Treiber, and Helbing, 2007. This is an extension milestone, not a prerequisite for the first ring.
 
 ## What the results mean
 

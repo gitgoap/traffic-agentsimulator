@@ -1,6 +1,6 @@
 # Project direction
 
-Status: proposal, 7 November 2026. No application implementation has started.
+Status: the demo application is implemented. Deployment remains a separate handoff.
 
 Build a small, understandable traffic laboratory: users choose or edit a road
 network, specify travel demand, run independent vehicle agents, and compare
@@ -13,16 +13,18 @@ Read these short notes in order:
 3. [Simulation concepts](concepts.md): agents, time, roads, and measurements.
 4. [Roadmap](roadmap.md): small deliverables and checks at each stage.
 
-Recommended first deliverable: a single-lane ring road with a few cars,
-play/pause/reset, a demand/density control, and a speed chart. It proves that
-vehicle behavior produces traffic before we build an editor or database.
+Start with the ring-road preset: play, pause, brake a car, and inspect the speed
+chart. Then explore the crossroads and flyover presets. The editor, paired
+experiments, local saving, sharing API, and database adapter are also implemented.
+See [implementation decisions](implementation.md), [verification](verification.md),
+and [deployment handoff](deployment.md) for the current behavior and limits.
 
 The first model assumes cars following lanes, with an eventual left-hand-traffic
 preset. It will not initially represent the lane-free, mixed motorcycle/car/bus
 traffic common in Indian cities. Its results illustrate mechanisms; interpreting
 them as Bengaluru forecasts would require observed data and calibration.
 
-During implementation, update the relevant concept note and record substantial
+For future changes, update the relevant concept note and record substantial
 design changes in architecture.md. Explain the engineering ideas, rather than
-documenting every function. These choices are proposed and may change after the
-first working simulation and performance measurements.
+documenting every function. The research and original roadmap preserve the
+project's rationale; implementation.md records adjustments made during development.
